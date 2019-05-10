@@ -1,5 +1,7 @@
 # ApartmentAcmeClient
 
+**FORK**: This fork updates acme-client to ~> 2.0 and blundler to ~> 2.0.
+
 Let's Encrypt interface for Multi-tenancy applications which respond by on many domains/subdomains (like Apartment)
 
 If you have a single server which responds to many different domains, getting Let's Encrypt to provide you with a multi-domain Certificate is possible, but a lot of work.

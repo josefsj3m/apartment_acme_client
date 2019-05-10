@@ -18,6 +18,7 @@ module ApartmentAcmeClient
   # A callback method which lists the possible domains to be checked
   # We will verify each of them before requesting a certificate from Let's Encrypt for all of them
   mattr_accessor :domains_to_check
+  mattr_accessor :use_dns
 
   def self.domains_to_check
     if @@domains_to_check.respond_to?(:call)
